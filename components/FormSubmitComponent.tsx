@@ -71,11 +71,9 @@ function FormSubmitComponent({ formUrl, content }: { content: FormElementInstanc
             <div className="max-w-[620px] flex flex-col gap-4 flex-grow bg-background w-full p-8 overflow-y-auto border-2 shadow-xl shadow-black-700 rounded">
             <h1 className="text-2xl font-bold">
                 表單發送
-                {/* Form submitted */}
             </h1>
             <p className="text-muted-foreground">
                 謝謝您填寫表單~~您可以隨時關閉此頁面或再次填寫表單~~
-                {/* Thank you for submitting the form, you can close this page now. */}
             </p>
             </div>
         </div>
